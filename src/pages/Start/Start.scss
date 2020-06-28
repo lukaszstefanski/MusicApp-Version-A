@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import '../../index.scss';
+
+.start {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    font-size: 140px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}

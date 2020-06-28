@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.favourite {
+    height: calc(100% - 60px);
+
+    h1 {
+        color: $black;
+    }
+}

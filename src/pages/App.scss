@@ -1,0 +1,57 @@
+@import '../index.scss';
+
+.app {
+  background: $orange;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background: $black;
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      margin: 0 40px;
+
+      a {
+        color: $orange;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 0 10px 3px 10px;
+        transition: .1s;
+
+        &:hover {
+          border-bottom: 2px solid $orange;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  height: 89vh;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  color: $orange;
+  background: $black;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

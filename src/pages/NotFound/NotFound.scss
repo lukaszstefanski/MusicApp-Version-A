@@ -1,0 +1,10 @@
+@import '../../index.scss';
+
+.notFound {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    font-size: 40px;
+}

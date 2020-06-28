@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.search {
+    height: calc(100% - 140px);
+
+    h1 {
+        color: $black;
+    }
+}

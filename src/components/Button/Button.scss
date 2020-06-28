@@ -1,0 +1,51 @@
+@import '../../index.scss';
+
+.submitButton {
+    height: 30px;
+    width: 150px;
+    margin: 0 5px;
+    color: $white;
+    background: $green;
+    border: 1px solid $black;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+
+    &:hover {
+        background: $hoverGreen;
+    }
+}
+
+.resetButton {
+    height: 30px;
+    width: 150px;
+    margin: 0 5px;
+    color: $white;
+    background: $red;
+    border: 1px solid $black;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+
+    &:hover {
+        background: $hoverRed;
+    }
+}
+
+.listButton {
+    height: 25px;
+    width: 100px;
+    margin: 0 5px;
+    color: $orange;
+    background: $black;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+
+    &:hover {
+        color: $black;
+        background: $orange;
+        border: 1px solid $black;
+    }
+}

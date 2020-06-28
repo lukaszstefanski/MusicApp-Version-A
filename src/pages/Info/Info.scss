@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.info {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    color: $black;
+
+    a {
+        color: $blue;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
